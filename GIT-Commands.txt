@@ -1,0 +1,78 @@
+GIT Commands:
+
+
+git --version
+git config --global user.name"shaiksai"
+git config --global user.email"saibptc@gmail.com"
+
+git init
+git status
+git add
+git add ./ */ -A
+git commit -m "commit message"
+git commit -m "commit message" filename
+git reset head filename-index to workspace
+git reset head *
+git reset --soft commitID of top below-localrepo to index
+git reset --mixed commitID-localrepo to workspace
+git remote add origin location of remote repo
+git push -u origin master
+git remote remove origin
+git remote rm origin
+git push --set-upstream origin master
+git log
+git show commit id--how many files in paricular commit id
+git --help
+git config color.ui
+git config --global color.ui true
+git config --global color.ui false
+git config --list
+git branch branchname
+git checkout branchname
+git merge branchname
+git branch -d branchname --delete from loacl
+git push origin --delete "branchname --delete from remote
+
+git tag tagname -light weight tag
+git tag -anotaed tag
+git tag -a tagname -m ""
+git show tagname
+git tag -l "v1.*"
+git push origin v1.0
+git push --tags
+git push origin --tags
+git tag -d v1.0
+git tag --delete v1.1
+git push origin -d v1.0
+git push origin --delete v1.0
+git push origin :v1.0
+git tag -d v1.0 v1.1(local)
+git push origin -d v1.0 v1.1(remote)
+
+we can't checkout tags in git
+we can create a branch from a tag and checkout the branch
+git checkout -b branchname tagname
+git tag tagname reference of commit
+git tag v1.2 5fcdb03(creating tag from past commit)
+
+git ls-files
+git commit -am ""
+git reset HEAD filename - for unstage
+git checkout — filename - for removing changes
+git log —oneline —graph —decorate —all
+git config —global alias.hist "log —online —graph — decorate —all"
+git config —global —list
+git hist — license.md
+git add -u
+git add -A
+HEAD - Points to the last commit of the current branch
+git tag mytag (lightweight tage)
+git tag —list
+git tag -d mytag
+git tag -a v1.0 -m "Release 1.0" (annotated tag)
+git show v1.0
+git stash
+git stash list
+git stash pop
+git reset commitID —soft, —mixed(default), —hard
+git reflog
